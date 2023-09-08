@@ -58,12 +58,11 @@ All involved Docker containers must be on the same network to communicate seamle
 
 1. Enter the target Docker container using the `docker exec` command:
 ```bash
-docker exec -it react-storefront
+docker exec -it react-storefront bash
+```
+Inside the container, use the curl command to check the connectivity:
 
-    Inside the container, use the curl command to check the connectivity:
-
-bash
-
+```bash
 curl http://api:8000
-
+```
 If successful, this means the containers can communicate with each other, ensuring smooth operation.
