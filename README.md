@@ -68,3 +68,6 @@ Inside the container, use the curl command to check the connectivity:
 curl http://api:8000
 ```
 If successful, this means the containers can communicate with each other, ensuring smooth operation.
+
+
+Note: there were difficulties uploading to the forked repo due to the react-storefront so a new repo was created
